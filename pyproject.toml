@@ -13,8 +13,7 @@ keywords = [
     "LLMs Tool Calling",
 ]
 classifiers = [
-    "Topic :: Large Language Models :: Tools Calling",
-    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
 ]
 
 # Requirements

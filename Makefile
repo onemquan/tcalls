@@ -3,6 +3,7 @@ exclude_folders := docs
 
 # Run code-style
 style:
+	isort $(check_dirs)
 	ruff check $(check_dirs) --fix --exclude $(exclude_folders)
 	ruff format $(check_dirs) --exclude $(exclude_folders)
 

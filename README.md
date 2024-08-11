@@ -7,7 +7,10 @@ With pip:
 pip install -U tcalls
 ```
 
-From Source with [poetry](https://python-poetry.org):
+## Contributing
+
+To set up the project with [poetry](https://python-poetry.org):
+:
 ```bash
 git clone https://github.com/onemquan/tcalls.git
 
@@ -16,12 +19,11 @@ pip install poetry
 poetry env use python3.10  # make sure python --version ~ 3.10
 poetry shell
 
-# install core dependencies
-poetry install --without dev
-
 # install test/develop dependencies
 poetry install
-```
+poetry run pre-commit install
 
-## Contributing
+# run tests:
+poetry run pytest
+```
 The full [contributing documentation](./CONTRIBUTING.md) provides helpful guidance.
